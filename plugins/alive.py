@@ -34,12 +34,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/3752041b671e0afc6ada2.jpg",
+        photo=f"https://telegra.ph/file/11cbf59181715ef67624f.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━
-✨ انا بوت 
-تشغيل الموسيقي في المحادثات...
-للاستفسار راسل المطور
-مطوري [ELLIOT](https://t.me/t_8_t_t)...
+💖¦انا بوت تشغيل وتنزيل الاغاني والفديو 
+💖¦اضفني مشرف في مجموعتك لأعمل
+💖¦اتبع مايلي لمعرفه كيفيه الاستخدام
+💖¦اضغط علي ذر الاوامر
+💖مميزات الروبوت يعمل بجودة فائقه
+مطوري [ELLIOT](https://t.me/DAD_A_S_K_A_N_D_E_R)...
 ━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
     [
@@ -48,14 +50,14 @@ async def start_(client: Client, message: Message):
         ],
         [
             InlineKeyboardButton("📝 الاومر", url="https://te.legra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-06-26"),
-            InlineKeyboardButton("⚕️ المطور", url="https://t.me/t_8_t_t")
+            InlineKeyboardButton("⚕️ المطور", url="https://t.me/DAD_A_S_K_A_N_D_E_R")
         ],
         [
-            InlineKeyboardButton("👥 جروب الدعم", url="https://t.me/CHVOTLX"),
-            InlineKeyboardButton("📣 قناة السورس", url="https://t.me/t_hunder")
+            InlineKeyboardButton("👥 جروب الدعم", url="https://t.me/SOURCELORD"),
+            InlineKeyboardButton("📣 قناة السورس", url="https://t.me/SOURCE_LORD")
         ],
         [
-            InlineKeyboardButton("💠 ايثون 💠", url="https://t.me/EITHON1")
+            InlineKeyboardButton("💠 سورس لورد 💠", url="https://t.me/SOURCE_LORD")
         ]
    
      ]
@@ -66,13 +68,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "Sumit", "تنصيب"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c264771ae8331ab9a7260.jpg",
+        photo=f"https://te.legra.ph/file/3752041b671e0afc6ada2.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/CHVOTLX"),
-                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/t_hunder"),
+                InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/SOURCELORD"),
+                InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SOURCE_LORD"),
             ]
         ]
      ),
@@ -88,7 +90,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "انضم لقناة ايثون", url=f"https://t.me/EITHON1")
+                        "انضم لقناة سورس لورد", url=f"https://t.me/SOURCE_LORD")
                 ]
             ]
         ),
