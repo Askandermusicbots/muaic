@@ -1,8 +1,8 @@
 {
-    "name": "ثيندر ميوزك",
-    "logo": "https://telegra.ph/file/50f5cfbd494b902b74f1a.jpg",
+    "name": "سورس لورد",
+    "logo": "https://telegra.ph/file/fb867c8e3e0802549d8d7.jpg",
     "description": "بوت تشغيل الاغاني في المكالمات الصوتيه في التلجرام.",
-    "keywords": ["music", "voice chat", "ELLIOT"],
+    "keywords": ["music", "voice chat", "DAD_A_S_K_A_N_D_E_R"],
     "repository": "https://github.com/MH7MD1/NEW",
     "stack": "container",
     "env": {
@@ -15,7 +15,7 @@
             "required": true
        },
         "BOT_USERNAME": {
-            "description": "معرف البوت @BotFather بدون '@' 𝚜𝚢𝚖𝚋𝚘𝚕",
+            "description": "معرف البوت @BotFather بدون '@' lord",
             "required": true 
         },
         "BOT_TOKEN": {
